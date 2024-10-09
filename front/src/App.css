@@ -1,0 +1,104 @@
+/* src/App.css */
+
+/* Styles pour le panel admin */
+.admin-panel {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Fond léger pour la section admin */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centrer le texte */
+  display: flex; /* Utilisation de flexbox pour centrer verticalement */
+  flex-direction: column; /* Aligne les éléments en colonne */
+  align-items: center; /* Centre les éléments horizontalement */
+}
+
+.admin-panel h1 {
+  color: #333;
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5rem;
+}
+
+.admin-panel h2 {
+  color: #666; /* Couleur légèrement plus claire pour le sous-titre */
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.admin-features {
+  list-style-type: none; /* Enlève les puces de la liste */
+  padding: 0;
+  margin: 0;
+  color: #333; /* Couleur pour les éléments de la liste */
+  font-size: 1.2rem; /* Taille de police légèrement plus grande */
+}
+
+.admin-features li {
+  margin: 5px 0; /* Espacement entre les éléments de la liste */
+}
+
+/* Ajout de styles pour ProductList si nécessaire */
+.product-list {
+  width: 100%; /* Pour s'assurer qu'il prend toute la largeur */
+  margin-top: 20px; /* Espacement au-dessus de la liste des produits */
+}
+/* src/App.css */
+.admin-buttons {
+  margin: 20px 0;
+}
+
+.admin-buttons button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.admin-buttons button:hover {
+  background-color: #f0f0f0; /* Changement de couleur au survol */
+}
+
+/* src/App.css */
+
+.admin-panel {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.admin-buttons {
+  margin-bottom: 20px;
+}
+
+.admin-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.admin-buttons button:hover {
+  background-color: #0056b3;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+h2 {
+  font-size: 20px;
+  color: #555;
+}
